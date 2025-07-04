@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "square-blueprint-lib",
+  "square-blueprint-bin"
+]

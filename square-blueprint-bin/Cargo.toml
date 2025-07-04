@@ -1,0 +1,10 @@
+[package]
+name        = "square-blueprint-bin"
+version     = "0.1.0"
+edition     = "2021"
+license     = "MIT OR Apache-2.0"
+
+[dependencies]
+square-blueprint-lib = { path = "../square-blueprint-lib" }
+blueprint-sdk        = { version = "0.5", default-features = false, features = ["tracing"] }
+tokio                = { version = "1", features = ["rt-multi-thread", "macros" ] }
